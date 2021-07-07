@@ -27,6 +27,8 @@ metadata {
         capability "Refresh"
         capability "Sensor"
         capability "Health Check"
+        capability "TEST"
+        capability "TEST2"
 
         fingerprint inClusters: "0000, 0001, 0003, 0020, 0402, 0B05", outClusters: "0003, 0006, 0008, 0019", manufacturer: "OSRAM", model: "LIGHTIFY Dimming Switch", deviceJoinName: "OSRAM Button" //OSRAM LIGHTIFY Dimming Switch
         fingerprint inClusters: "0000, 0001, 0003, 0020, 0402, 0B05", outClusters: "0003, 0006, 0008, 0019", manufacturer: "CentraLite", model: "3130", deviceJoinName: "Centralite Button" //Centralite Zigbee Smart Switch
